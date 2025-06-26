@@ -1,0 +1,111 @@
+
+body {
+  background-color: #F9F5F0; 
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: #FFF7F3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #B88C74 !important;
+}
+
+.nav-link {
+  color: #6b4f3b !important;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #000 !important;
+}
+
+/* ---------- Table Styling ---------- */
+.table {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background-color: #B88C74;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+.table tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table img {
+  border-radius: 8px;
+  width: 90px;
+  height: auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* ---------- Form Inputs ---------- */
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.input-group-text {
+  background-color: #D5BDAF;
+  border: none;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #D5BDAF;
+  border-color: #D5BDAF;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #c5a38f;
+  border-color: #c5a38f;
+}
+
+.btn-warning {
+  background-color: #f4a261;
+  border: none;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #e3934e;
+}
+
+.btn-danger {
+  background-color: #ff6b6b;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #e55b5b;
+}
+
+/* ---------- Alerts ---------- */
+.alert {
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+/* ---------- Container ---------- */
+.container {
+  margin-top: 40px;
+}
