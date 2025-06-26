@@ -6,6 +6,7 @@
     <title>Product Management - View All Products</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -36,7 +37,7 @@
    @foreach($products as $product)
    <tbody><!--Data-->
     <tr>
-        <th scope="row">{{$loop->iteration }}</th>
+        <th scope="row">{{$product->id}}</th>
       <td>{{ $product->product_name}}</td> <!--product name-->      
       <td>{{ $product->product_price}}</td><!--product price-->
       <td>
